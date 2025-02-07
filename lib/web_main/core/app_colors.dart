@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CyberpunkColors {
+class AppColors {
   // Asosiy cyberpunk ranglar
   static const Color neonPink = Color(0xFFFF007F); // Neon pushti
   static const Color neonBlue = Color(0xFF00FFFF); // Neon ko'k
@@ -19,12 +19,12 @@ class CyberpunkColors {
 
   // Cyberpunk gradientlar
   static const Gradient cyberpunkGradient = LinearGradient(
-    colors: [darkPurple, deepBlack, deepBlack],
+    colors: [deepBlack, deepBlack, darkPurple],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
   static const Gradient cyberpunkGradientBar = LinearGradient(
-    colors: [CyberpunkColors.neonBlue, deepBlack, deepBlack],
+    colors: [AppColors.neonBlue, deepBlack, deepBlack],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
